@@ -36,9 +36,10 @@ export default function AboutBio() {
             </Typography>
 
             <Typography variant="body" pt={2} pb={1}>
-              Mr. Loftus is running for re-election to the Eagle Sewer Board May
-              of 2023. He has served on the Board since 2013. His knowledge of
-              sewer systems is multi-generational.
+              Mr. Loftus is running for re-election to the Eagle Sewer Board.
+              This is an Ada County election and takes place May 16, 2023. He
+              has served on the Board since 2013. His knowledge of sewer systems
+              is multi-generational.
             </Typography>
           </Stack>
         </Grid>

@@ -39,13 +39,13 @@ export default function App() {
             <Grid item xs={12} pt={5}>
               <Typography variant="body">
                 Terry Loftus has been a resident of Eagle for 44 years. He has
-                served as the volunteer Secretary-Treasurer for his neighborhood
-                water system, Evans Water Corporation and HOA for 42 years. He
-                also has worked as the Certified Operator for that water system.
-                He also served on the Eagle Library Board of Trustees from 1996
-                to 2006. It was during his tenure there that the current Eagle
-                Library was built and he volunteered for several years on their
-                budget committee.
+                served as the volunteer Secretary-Treasurer on the board of his
+                neighborhood water system, Evans Water Corporation and HOA, for
+                42 years. He is also the Certified Operator for that water
+                system. Terry served on the Eagle Library Board of Trustees from
+                1996 to 2006. It was during his tenure there that the current
+                Eagle Library was built and he volunteered for several years on
+                their budget committee.
               </Typography>
             </Grid>
             <Grid item xs={12} pt={5}>
@@ -54,7 +54,7 @@ export default function App() {
                 Hewlett-Packard for 19 years. His job there moved to Jabil Corp.
                 for 16 years. He then returned to the HP Campus working for
                 Adecco Technical Services and Mphasis Corp at the same location
-                as an electronic engineer in 2019.
+                as an electronic engineer until 2019.
               </Typography>
             </Grid>
             <Grid item xs={12} pt={5}>
