@@ -9,7 +9,7 @@
     "deploy": "gh-pages -d dist",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "vite --port $PORT"
+    "start": "serve dist"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
