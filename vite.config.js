@@ -1,9 +1,14 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import Pages from "vite-plugin-pages-sitemap";
+import generateSitemap from "vite-plugin-pages-sitemap";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  // base: "/terry-loftus-landing-page/",
-  // base: "/",
-  plugins: [react()],
+  plugins: [
+    react(),
+    Pages({
+      onRoutesGenerated: (routes) => generateSitemap({ routes }),
+    }),
+  ],
 });
