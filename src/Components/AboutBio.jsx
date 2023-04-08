@@ -35,7 +35,12 @@ export default function AboutBio() {
               Eagle Sewer District Board Member
             </Typography>
 
-            <Typography variant="body" pt={2} pb={1}>
+            <Typography
+              variant="body"
+              pt={2}
+              pb={1}
+              sx={{ fontSize: mediaQuerySmall ? "26px" : "20px" }}
+            >
               Mr. Loftus is running for re-election to the Eagle Sewer Board.
               This is an Ada County election and takes place May 16, 2023. He
               has served on the Board since 2013. His knowledge of sewer systems

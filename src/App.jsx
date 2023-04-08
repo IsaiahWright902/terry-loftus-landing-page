@@ -26,7 +26,10 @@ export default function App() {
             pt={2}
           >
             <Grid item xs={12}>
-              <Typography variant="body">
+              <Typography
+                variant="body"
+                sx={{ fontSize: mediaQuerySmall ? "26px" : "20px" }}
+              >
                 His family moved from Seattle to Idaho when he was 12 for his
                 father’s new job as a Superintendent doing sewer and water work
                 all around Boise. He grew up listening to his dad and friends
@@ -37,19 +40,25 @@ export default function App() {
               </Typography>
             </Grid>
             <Grid item xs={12} pt={5}>
-              <Typography variant="body">
+              <Typography
+                variant="body"
+                sx={{ fontSize: mediaQuerySmall ? "26px" : "20px" }}
+              >
                 Terry Loftus has been a resident of Eagle for 44 years. He has
-                served as the volunteer Secretary-Treasurer on the board of his
-                neighborhood water system, Evans Water Corporation and HOA, for
-                42 years. He is also the Certified Operator for that water
-                system. Terry served on the Eagle Library Board of Trustees from
-                1996 to 2006. It was during his tenure there that the current
-                Eagle Library was built and he volunteered for several years on
-                their budget committee.
+                served as the volunteer Secretary-Treasurer for his neighborhood
+                water system, Evans Water Corporation and HOA for 42 years. He
+                also has worked as the Certified Operator for that water system.
+                He also served on the Eagle Library Board of Trustees from 1996
+                to 2006. It was during his tenure there that the current Eagle
+                Library was built and he volunteered for several years on their
+                budget committee.
               </Typography>
             </Grid>
             <Grid item xs={12} pt={5}>
-              <Typography variant="body">
+              <Typography
+                variant="body"
+                sx={{ fontSize: mediaQuerySmall ? "26px" : "20px" }}
+              >
                 Terry was employed as an electronics technician for
                 Hewlett-Packard for 19 years. His job there moved to Jabil Corp.
                 for 16 years. He then returned to the HP Campus working for
@@ -58,14 +67,17 @@ export default function App() {
               </Typography>
             </Grid>
             <Grid item xs={12} pt={5}>
-              <Typography variant="body">
+              <Typography
+                variant="body"
+                sx={{ fontSize: mediaQuerySmall ? "26px" : "20px" }}
+              >
                 Since retirement he enjoys serving with the Sewer Board and his
                 neighborhood water system. He and his wife have been married for
                 45 years and love spending time whenever they can with their
                 son, two daughters and three grandchildren.
               </Typography>
             </Grid>
-            <Grid item xs={12} pt={5} textAlign="center">
+            <Grid item xs={12} pt={5} pb={10} textAlign="center">
               <Typography variant="heroText">
                 Thank You for Your Consideration!
               </Typography>
