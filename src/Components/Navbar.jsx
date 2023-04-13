@@ -13,7 +13,7 @@ export default function Navbar() {
             href="https://adacounty.id.gov/elections/candidate-filings/#:~:text=6%2Dyear%20terms-,Terry%20Loftus,-6%2Dyear%20term"
             target="_blank"
           >
-            Candidate Filling
+            Candidate Filing
           </Link>
         </Toolbar>
       </AppBar>
